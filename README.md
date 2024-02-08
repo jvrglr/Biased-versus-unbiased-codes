@@ -15,7 +15,7 @@ FORTRAN 2008 is used in the examples dealing with meta-population systems (Secti
 Compilation is achieved using the gfortran compiler:
 
 ```
-gfortran  -o exe.x Random2.f dranxor.f90 ignbin.f  M_declarations.f08 M_functions.f08 M_subroutines.f08 main_compare_B_U.f08 
+gfortran  -o exe.x Random2.f dranxor.f90 ignbin.f  M_declarations.f08 M_functions.f08 M_subroutines_github.f08 main_compare_B_U.f08 
 ```
 
 Once compiled, you can execute the program with:
