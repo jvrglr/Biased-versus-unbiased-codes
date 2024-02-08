@@ -1,6 +1,25 @@
-program Main_SIS
-  !Main program, depends on the rest of modules (declarations, functions and subroutines), also requires subrutines for pseudo-random number generation)
+!=============================================================================
+! Author: Javier Aguilar
+! Date: February 8, 2024
+! Description: Main program, depends on the rest of modules (declarations, functions and subroutines), 
+!also requires subrutines for pseudo-random number generation)
+!
+! This program is distributed under the terms of the MIT license.
+!
+! If you use this code in your work, please cite the following article:
+! Aguilar J et al. "Biased versus unbiased numerical methods for stochastic simulations: application to contagion processes."
+! DOI: 
+!=============================================================================
 
+program YourProgram
+  ! Your Fortran code goes here
+  ...
+
+end program YourProgram
+
+program Main_SIS
+  !
+  !
   use declarations_module
   use functions
   use subroutines
