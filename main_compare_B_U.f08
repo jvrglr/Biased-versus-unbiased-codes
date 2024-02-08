@@ -11,13 +11,7 @@
 ! DOI: 
 !=============================================================================
 
-program YourProgram
-  ! Your Fortran code goes here
-  ...
-
-end program YourProgram
-
-program Main_SIS
+program Main_compare
   !
   !
   use declarations_module
@@ -100,4 +94,4 @@ program Main_SIS
   deallocate(S);deallocate(I);deallocate(DI);deallocate(DS);deallocate(E) 
 
 
-101 end program Main_SIS
+101 end program Main_compare
