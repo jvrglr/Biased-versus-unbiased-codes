@@ -23,6 +23,7 @@ Once compiled, you can execute the program with:
 time ./exe.x
 ```
 
-1. **main_compare_B_U.f08** Calls main functions and subroutines to do the computation.
+1. **main_compare_B_U.f08** Reads network of contacts from an edge list file. Calls main functions and subroutines. 
+2. **M_subroutines_github.f08** Contains binomial and Gillespie methods together with the program to generate dots in Fig. 6. 
 
 
