@@ -15,7 +15,7 @@ FORTRAN 2008 is used in the examples dealing with meta-population systems (Secti
 Compilation is achieved using the gfortran compiler:
 
 ```
-gfortran  -o exe.x Random2.f dranxor.f90 ignbin.f  M_declarations.f08 M_functions.f08 M_subroutines_github.f08 main_compare_B_U.f08 
+gfortran  -o exe.x Random2.f90 dranxor.f90 ignbin.f  M_declarations.f90 M_functions.f90 M_subroutines_github.f90 main_compare_B_U.f90 
 ```
 
 Once compiled, you can execute the program with:
@@ -23,8 +23,8 @@ Once compiled, you can execute the program with:
 time ./exe.x
 ```
 
-1. **main_compare_B_U.f08** Reads network of contacts from an edge list file. Calls main functions and subroutines. 
-2. **M_subroutines_github.f08** Contains binomial and Gillespie methods together with the program to generate dots in Fig. 6.
+1. **main_compare_B_U.f90** Reads network of contacts from an edge list file. Calls main functions and subroutines. 
+2. **M_subroutines_github.f90** Contains binomial and Gillespie methods together with the program to generate dots in Fig. 6.
 3. **M_declarations_github.f90** Declaration of public variables.
 
 
