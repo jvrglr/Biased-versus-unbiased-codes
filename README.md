@@ -9,7 +9,7 @@ Aguilar, J., Ramasco, J. J., & Toral, R. "Numerical methods for stochastic simul
 
 If you have any questions or improvements, feel free to reach out (jvrglrschz@gmail.com).
 
-## Code list FORTRAN
+## FORTRAN code
 FORTRAN 2008 is used in the examples dealing with meta-population systems (Section VI.B in our article). 
 
 Compilation is achieved using the gfortran compiler:
@@ -22,7 +22,12 @@ Once compiled, you can execute the program with:
 ```
 time ./exe.x
 ```
+To use the codes, you need two folders. The "data" folder should contain outcome files, while the "networks" folder must include input files with an edge list for the meta-population network. Two example edge lists are provided.
 
+The format of the edge list is as follows: Column number "i" corresponds to the information of a node labeled with "i". The first row contains the degree of the node, and the subsequent rows indicate the labels of the connected nodes.
+
+
+### Code list FORTRAN
 1. **main_compare_B_U.f90** Reads network of contacts from an edge list file. Calls main functions and subroutines. 
 2. **M_subroutines_github.f90** Contains binomial and Gillespie methods together with the program to generate dots in Fig. 6.
 3. **M_declarations_github.f90** Declaration of public variables.
