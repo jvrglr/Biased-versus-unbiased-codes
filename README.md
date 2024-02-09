@@ -9,6 +9,8 @@ Aguilar, J., Ramasco, J. J., & Toral, R. "Numerical methods for stochastic simul
 
 If you have any questions or improvements, feel free to reach out (jvrglrschz@gmail.com).
 
+The code was tested on 9/02/2024.
+
 ## FORTRAN code
 FORTRAN 2008 is used in the examples dealing with meta-population systems (Section VI.B in our article). 
 
@@ -38,5 +40,5 @@ The format of the edge list is as follows: Column number "i" corresponds to the 
 
 
 ## Python code
-Python code in **Rule_27_4_SIS_ATA.py** is used in the example dealing with the all-to-all SIS model (Section VI.A in our article).
+Python 3.7.4 code in **Rule_27_4_SIS_ATA.py** is used in the example dealing with the all-to-all SIS model (Section VI.A in our article).
 
