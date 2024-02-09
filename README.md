@@ -37,3 +37,6 @@ The format of the edge list is as follows: Column number "i" corresponds to the 
 7. **Random2.f90** Pseudo-random number generator. Extracted from : http://www.homepages.ucl.ac.uk/~ucakarc/work/software/randgen.f .
 
 
+## Python code
+Python code in "Rule_27_4_SIS_ATA.py" is used in the example dealing with the all-to-all SIS model (Section VI.A in our article).
+
