@@ -27,5 +27,8 @@ time ./exe.x
 2. **M_subroutines_github.f90** Contains binomial and Gillespie methods together with the program to generate dots in Fig. 6.
 3. **M_declarations_github.f90** Declaration of public variables.
 4. **M_functions_github.f90** Definition of public functions.
+5. **dranxor.f90** Pseudo-random number generator, Toral, R., & Chakrabarti, A. (1993). Generation of Gaussian distributed random numbers by using a numerical inversion method. Computer physics communications, 74(3), 327-334. Provided by the author,  raul@ifisc.uib-csic.es.
+6. **ignbin.f** Binomial generator. Dependent of dranxor.f90 for the generation of uniform samples. Extracted from: ranlib.f.tar.gz in https://www.netlib.org/random/.
+7. **Random2.f90** Pseudo-random number generator. Extracted from : http://www.homepages.ucl.ac.uk/~ucakarc/work/software/randgen.f .
 
 
