@@ -17,7 +17,7 @@ FORTRAN 2008 is used in the examples dealing with meta-population systems (Secti
 Compilation is achieved using the gfortran compiler:
 
 ```
-gfortran  -o exe.x Random2.f90 dranxor.f90 ignbin.f  M_declarations.f90 M_functions.f90 M_subroutines_github.f90 main_compare_B_U.f90 
+gfortran  -o exe.x Random2.f dranxor.f90 ignbin.f  M_declarations.f90 M_functions.f90 M_subroutines_github.f90 main_compare_B_U.f90 
 ```
 
 Once compiled, you can execute the program with:
@@ -36,7 +36,7 @@ The format of the edge list is as follows: Column number "i" corresponds to the 
 4. **M_functions_github.f90** Definition of public functions.
 5. **dranxor.f90** Pseudo-random number generator, Toral, R., & Chakrabarti, A. (1993). Generation of Gaussian distributed random numbers by using a numerical inversion method. Computer physics communications, 74(3), 327-334. Provided by the author,  raul@ifisc.uib-csic.es.
 6. **ignbin.f** Binomial generator. Dependent of dranxor.f90 for the generation of uniform samples. Extracted from: ranlib.f.tar.gz in https://www.netlib.org/random/.
-7. **Random2.f90** Pseudo-random number generator. Extracted from : http://www.homepages.ucl.ac.uk/~ucakarc/work/software/randgen.f .
+7. **Random2.f** Pseudo-random number generator. Extracted from : http://www.homepages.ucl.ac.uk/~ucakarc/work/software/randgen.f .
 
 
 ## Python code
